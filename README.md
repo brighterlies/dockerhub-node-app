@@ -11,13 +11,14 @@ Aplicación mínima en Node.js para demostrar la construcción y publicación de
 
 ## 🧰 Estructura del proyecto
 
-dockerhub-node-app/
-├── app.js  
-├── package.json  
-├── dockerfile  
-└── .github/  
-......└── workflows/  
-.......└── deploy-dockerhub.yml
+- dockerhub-node-app/
+    - app.js  
+    - package.json  
+    - Dockerfile  
+    - .github/
+        - workflows/
+            - deploy-dockerhub.yml
+
  
 ## 🐳 Instrucciones para uso local
 
