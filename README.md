@@ -16,8 +16,8 @@ dockerhub-node-app/
 ├── package.json  
 ├── dockerfile  
 └── .github/  
-.....└── workflows/  
-......└── deploy-dockerhub.yml
+......└── workflows/  
+.......└── deploy-dockerhub.yml
  
 ## 🐳 Instrucciones para uso local
 
