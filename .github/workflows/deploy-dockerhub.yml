@@ -6,7 +6,11 @@ on:
 
 jobs:
   build-and-push:
+    name: Build and Push to Docker Hub
     runs-on: ubuntu-latest
+
+    env:
+      IMAGE_TAG: ${{ secrets.DOCKER_USERNAME }}/dockerhub-node-app:v1
 
     steps:
       - name: Checkout code
@@ -20,5 +24,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t brighterlies/dockerhub-node-app:v1 .
-          docker push brighterlies/dockerhub-node-app:v1
+          docker build -t $IMAGE_TAG .
+          docker push $IMAGE_TAG
