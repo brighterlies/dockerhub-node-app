@@ -11,14 +11,14 @@ Aplicación mínima en Node.js para demostrar la construcción y publicación de
 
 ## 🧰 Estructura del proyecto
 
-dockerhub-node-app/ 
+dockerhub-node-app/
 ├── app.js
 ├── package.json
 ├── Dockerfile
 └── .github/
-    └── workflows/ 
+    └── workflows/
         └── deploy-dockerhub.yml
-
+ 
 ## 🐳 Instrucciones para uso local
 
 1. Instalar dependencias:
@@ -34,8 +34,8 @@ dockerhub-node-app/
 Cada push a main genera y publica automáticamente la imagen en Docker Hub a través de GitHub Actions.
 
 ## 🔐 Secrets requeridos en GitHub
-DOCKER_USERNAME
-DOCKER_PASSWORD (o token si usas 2FA)
+DOCKER_USERNAME  
+DOCKER_PASSWORD (o token si usas 2FA)  
 
 ## 🌐 Resultado
 Una vez desplegada correctamente, la app devuelve:
