@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t tuusuario/dockerhub-node-app:v1 .
-          docker push tuusuario/dockerhub-node-app:v1
+          docker build -t brighterlies/dockerhub-node-app:v1 .
+          docker push brighterlies/dockerhub-node-app:v1
